@@ -1,0 +1,12 @@
+name: NoElytra
+version: ${project.version}
+main: co.porami.noelytra.Main
+api-version: 1.17
+authors: [ Porami ]
+description: Disables elytra.
+website: https://porami.co
+commands:
+  elytra:
+    description: Enables or disables elytra usage.
+    usage: /elytra enable
+    aliases: [noelytra]
